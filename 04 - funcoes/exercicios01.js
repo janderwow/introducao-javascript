@@ -31,7 +31,7 @@ function calcularValor(precoProduto, formapagamento){
 
  //forma pagamento 1 - a vista 2- pix 3-preco normal 4-duas vezes
 function main(){
-    const teste = calcularValor(250,3);
-    console.log(teste)
+    const resultado = calcularValor(250,3);
+    console.log(resultado)
 };
 main();
