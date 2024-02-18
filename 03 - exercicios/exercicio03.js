@@ -12,7 +12,7 @@ Código condição de pagamento
 */
 
 const precoProduto = 250;
-const formapagamento = 'ACIMA 2X';
+const formapagamento = 1; //1 - a vista 2- pix 3-preco normal 4-duas vezes
 const desconto10 = (10/100) * precoProduto;
 const desconto15 = (15/100) * precoProduto;
 const precoComAcrescimo = ((10/100) * precoProduto) + precoProduto;
@@ -21,12 +21,12 @@ const precoComAcrescimo = ((10/100) * precoProduto) + precoProduto;
 //console.log(formapagamento)
 //console.log(desconto10)
 //console.log(desconto15)
-if(formapagamento == "DEBITO"){
+if(formapagamento === 1){
     console.log(precoProduto - desconto10)
-}else if(formapagamento == "PIX"){
+}else if(formapagamento === 2){
     console.log(precoProduto - desconto15)
-}else if(formapagamento == "2X"){
+}else if(formapagamento === 3){
     console.log(precoProduto)
-}else if(formapagamento == "ACIMA 2X"){
+}else if(formapagamento === 4){
     console.log(precoComAcrescimo)
 };
