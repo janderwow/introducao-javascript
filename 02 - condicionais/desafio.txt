@@ -1,0 +1,10 @@
+Faca um programa para calcular o valor de uma distanciaViagem
+
+Voce tera 3 variaves. Sendo elas:
+1 - Preco do etanol;
+2 - Preco da gasolina;
+3 - O tipo de combustivel do carro por KM;
+4 - Gasto medio de combustivel do carro por KM;
+5 - Distancia em KM da viagem;
+
+Imprima no console o valor que será gasto para realizar esta viagem

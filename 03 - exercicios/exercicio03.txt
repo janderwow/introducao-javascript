@@ -1,0 +1,25 @@
+3) Elabore um algoritimo que calcule o que deve ser pago por um produto, 
+    considerando o preço normal de etiqueta e a escolha de condição de pagamento.
+Utilize os códigos da tabela a seguir para ler qual a condiçãode pagamento escolhida e efetuar o cálculo adequado.
+
+Código condição de pagamento
+- À vista Débito, recebe 10% de desconto.
+- À vista no Dinheiro ou no PIX, recebe 15% de desconto.
+- Em duas vezes, preço normal de etiqueta sem juros.
+- Acima de duas vezes, preço normal de etiqueta mais juros de 10%.
+
+
+preco = 50
+forma pagamento = PIX
+desconto10 = 10/100
+desconto15 = 15/100
+
+se forma pagamento = DEBITO
+    dividir 10 por 100 e multiplicar o resultado pelo preço.
+se forma pagamento = PIX
+    dividir 15 por 100 e multiplicar o resultado pelo preço.
+se forma pagamento = DUAS VEZES
+    preço normal.
+se forma pagamento = ACIMA DE DUAS VEZES
+    mais juros de 10%.
+  
